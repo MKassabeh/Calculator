@@ -11,34 +11,35 @@ body{
     font-weight: bold;
 }
 .calculator{
+    border: 5px solid black;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: black;
-    height: 50vh;
+    height: 100%;
     width: 50vh;    
+    padding-top: 0;
 }
 
 .calculator .screen{
     background-color: white ;
-    height: 10vh;
-    width: 80%;
+    height: 15vh;
+    width: 100%;
     padding-top: 0;
 }
 
-.calculator div button{
-    height: 3vh;
-    margin: 2px;
-}
-.calculator .first{
-    padding: 5vh 0vh;
-}
-.calculator .third{
-    padding: 5vh 0vh;
-}
+
 .calculator button{
-    width: 50px;
+    width: 112.2px;
+    height: 112px;
+    background-color: bisque;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.calculator .div{
+    margin: 0;
 }
 
