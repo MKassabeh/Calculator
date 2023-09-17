@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.calculator{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50vh;
+    width: 50vh;    
+}
+
+.calculator .screen{
+    background-color: white ;
+    height: 10vh;
+    width: 80%;
+    padding-top: 0;
+}
+
+.calculator div button{
+    height: 3vh;
+    margin: 2px;
+}
+.calculator .first{
+    padding: 5vh 0vh;
+}
+.calculator .third{
+    padding: 5vh 0vh;
+}
+.calculator button{
+    width: 50px;
+}
+
