@@ -23,11 +23,13 @@ body{
     padding-top: 0;
 }
 
-.calculator .screen{
+.calculator #screen{
     background-color: white ;
     height: 15vh;
     width: 100%;
     padding-top: 0;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 
